@@ -4,12 +4,10 @@ build
 example1
 *.a
 
-/SQLiteCpp.sln
 *.ncb
 *.suo
 *.user
 *sdf
-*.vc*
 *~
 doc
 core
