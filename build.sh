@@ -12,7 +12,9 @@ cd build
 
 # Generate a Makefile for GCC (or Clang, depanding on CC/CXX envvar)
 cmake -DCMAKE_BUILD_TYPE=Debug -DSQLITECPP_USE_GCOV=OFF -DSQLITECPP_BUILD_EXAMPLES=ON -DSQLITECPP_BUILD_TESTS=ON ..
-if [ $? != 0 ] ; then exit
+if [ $? != 0 ] ; then
+    exit
+fi
 
 # Build (ie 'make')
 cmake --build .
