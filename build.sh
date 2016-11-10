@@ -15,7 +15,6 @@ cmake -DCMAKE_BUILD_TYPE=Debug -DSQLITECPP_USE_GCOV=OFF -DSQLITECPP_BUILD_EXAMPL
 if [ $? != 0 ] ; then
     exit
 fi
-
 # Build (ie 'make')
 cmake --build .
 
